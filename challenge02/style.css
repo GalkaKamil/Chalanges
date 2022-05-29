@@ -23,17 +23,18 @@ body {
 	font-family: sans-serif;
 }
 
-.container {
-	margin: 0 auto;
+.background_container {
 	background: #23424a;
 	color: white;
-	padding: 50px 4%;
+	padding: 50px 10px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 750px;
 }
 
 .intro-content {
 	width: 50%;
-}
-
-.container_two {
-	max-width: 750px;
 }
